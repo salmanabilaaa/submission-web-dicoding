@@ -1,0 +1,418 @@
+* {
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  body {
+    font-family: "Quicksand", sans-serif;
+    overflow-x: hidden;
+  }
+  
+  nav a {
+    font-size: 24px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+  }
+  
+  nav a:hover {
+    font-weight: bold;
+  }
+  
+  nav li {
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 50px;
+  }
+  
+  nav {
+    overflow: auto;
+    align-self: flex-start;
+    top: 0;
+    background-color: #DFCCFB;
+    padding: 5px 40px;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .brand {
+    display: flex;
+    align-items: center;
+  }
+  
+  .brand h1 {
+    color: white;
+  }
+  
+  ul {
+    margin-right: 50px;
+  }
+  
+  .jumbotron {
+    background-image: url("../images/bgr.jpeg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    opacity: 1;
+  }
+  
+  .jumbotron h1 {
+    text-align: center;
+    font-size: 100px;
+    color: white;
+    padding-top: 150px;
+  }
+  
+  .misi {
+    font-family: Poppins, sans-serif;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    padding-top: 32px;
+    margin-bottom: 30px;
+  }
+  
+  .header {
+    display: inline;
+    position: sticky;
+  }
+  
+  button {
+    font-family: "Poppins", Sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    background-color: #BEADFA;
+    color: #fff;
+    border-radius: 50px;
+    padding: 16px 36px;
+    width: 250px;
+    height: 50px;
+  }
+  
+  .card {
+    box-shadow: 4px 10px 5px 0 rgba(0, 0, 0, 0,2);
+    border-radius: 10px;
+    width: 300px;
+    background-color: #BEADFA
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card h2,
+  img {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .card p {
+    text-align: justify;
+  }
+  
+  #fitur {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    flex-wrap: wrap;
+  }
+  
+  #fitur article {
+    margin-left: 10px;
+    padding: 20px;
+  }
+  
+  .tentangkami {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -10px;
+    background-color: #B2A4FF;
+    padding: 0 150px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .tentangkami p {
+    text-align: justify;
+  }
+  
+  .kata {
+    max-width: 60%;
+  }
+  
+  .foto img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  
+  .testimoni {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+  
+  .testi {
+    box-shadow: 4px 10px 5px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    width: 300px;
+    height: 400px;
+    background-color: #B2A4FF;
+    padding: 10px;
+    margin: 20px;
+    padding-top: 20px;
+  }
+  
+  .testimoni img {
+    object-fit: cover;
+    background: #fff;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    object-position: center;
+  }
+  
+  .testimoni p,
+  .testimoni h3 {
+    text-align: center;
+  }
+  
+  .testi:hover {
+    transform: scale(1.05);
+  }
+  
+  button:hover {
+    transform: scale(1.05);
+  }
+  
+  #kontak {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    background: #f4f0fa;
+  }
+  
+  .kontak-atas {
+    max-width: 100%;
+    height: 300px;
+    color: #fff;
+  }
+  .kontak-atas ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+  }
+  
+  .kontak-bawah {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    max-width: 100%;
+  }
+  
+  .kontak-bawah table tr {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  
+  tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+  }
+  
+  .card {
+    box-shadow: 0px 0px 5px 0px rgb(0 0 0 / 20%);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 10px;
+  }
+  
+  ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    padding: 0 40px;
+  }
+  
+  .kontak-atas ul li.tombol {
+    font-weight: lighter;
+    border-radius: 10px;
+    background-color: #e4daff;
+  }
+  
+  .kontak-atas ul li.tombol:hover {
+    background-color: #544d69;
+    cursor: pointer;
+  }
+  
+  li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    padding: 5px;
+  }
+  
+  .kontak-atas img {
+    align-items: center;
+  }
+  
+  th {
+    margin-inline: 30px;
+  }
+  
+  .btn-menu {
+    width: 100%;
+    background-color: #BEADFA;
+    text-align: center;
+    display: none;
+    font-size: 18px;
+    padding: 10px 0;
+  }
+  
+  .list-menu.active {
+    display: flex;
+  }
+  
+  
+  footer {
+    padding: 20px;
+    color: white;
+    background-color: #BEADFA;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .jumbotron h1 {
+      font-size: 40px;
+      padding-top: 50px;
+    }
+    .jumbotron h2 {
+      font-size: 18px;
+    }
+    .misi{
+      padding-top: 18px;
+    }
+    .tentangkami {
+      flex-direction: column-reverse;
+      padding: 20px 40px;
+    }
+    .tentangkami .foto{
+      text-align: center;
+    }
+    .kata {
+      max-width: 100%;
+    }
+    .kata h1{
+      text-align: center;
+    }
+    .tentangkami button {
+      align-items: center;
+    }
+    
+    button {
+    font-family: "Poppins", Sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    background-color: #B2A4FF;
+    color: #fff;
+    border-radius: 50px;
+    padding: 8px 16px;
+    width: 150px;
+    height: 30px;
+    }
+  
+    nav {
+      flex-direction: column;
+      padding: 0 0;
+    }
+    .list-menu li{
+      margin-left: 0 !important;
+      text-align: center;
+    }
+  
+    .list-menu {
+      display: none;
+      flex-direction: column;
+    }
+  
+    .btn-menu {
+      display: block;
+    }
+  
+    .testimoni{
+      justify-content: center;
+    }
+  
+    #fitur {
+      justify-content: center;
+    }
+  }
+  
+  
+  
+  @media screen and (max-width: 425px) {
+    .jumbotron h1 {
+      font-size: 20px;
+      padding-top: 10px;
+    }
+    .jumbotron h2 {
+      font-size: 12px;
+    }
+    .solusi h1 {
+      margin-top: 0;
+    }
+    .misi{
+      padding-top: 18px;
+    }
+    .tentangkami {
+      flex-direction: column-reverse;
+      padding: 20px 40px;
+    }
+    .tentangkami .foto{
+      text-align: center;
+    }
+    .kata {
+      max-width: 100%;
+    }
+    .kata h1{
+      text-align: center;
+    }
+    .tentangkami button {
+      align-items: center;
+    }
+  
+    .menu-list {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    button {
+      font-family: "Poppins", Sans-serif;
+      font-size: 10px;
+      font-weight: 300;
+      background-color: #BEADFA;
+      color: #fff;
+      border-radius: 50px;
+      padding: 6px 12px;
+      width: 120px;
+      height: 30px;
+    }
+    
+  
+  }
+  
